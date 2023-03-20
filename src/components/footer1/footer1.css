@@ -1,26 +1,33 @@
 .footer1{
     background-color: var(--pink);
     font-family: 'Lato';
-    padding: 150px 0 30px;
+    padding: 50px 2px 2px 100px;
     color: var(--white);
+    margin-top: 32%;
+}
+.vv{
+    color: white;
 }
 .foot-wrap{
     display: flex;
-    justify-content: space-evenly;
+    margin-top: 2%;
 }
 .box-foot{
-    width: 36%;
+    width: 70%;
+    color: white;
 }
-.box-foot p{
-    width: 80%;
-    margin-bottom: 10px;
+.box-feet{
+    width: 50%;
+    margin-bottom: 50px;
+    margin-left: 34%;
 }
 .social{
     margin-bottom: 30px;
 }
 .sc-icon{
-    display: flex;
+    display: inline-flex;
     margin-top: 10px;
+    color: #C71D6D;
 }
 .sc-icon a{
     position: relative;
@@ -30,6 +37,7 @@
     margin-right: 15px;
     border-radius: 50%;
 }
+
 .sc-icon a img{
     position: absolute;
     width: 65%;
@@ -51,7 +59,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-.box-foot p {
+.box-feet {
     width: 90%;
     margin-bottom: 10px;
 }

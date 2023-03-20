@@ -1,0 +1,14 @@
+.fhd{
+    display: flex;
+    margin-top: -5%;
+}
+.bb{
+    color: white;
+    font-size:medium;
+    margin-top: 1px;
+}
+.arr{
+    margin-left: -28px;
+    margin-right: -28px;
+    color: white;
+}
