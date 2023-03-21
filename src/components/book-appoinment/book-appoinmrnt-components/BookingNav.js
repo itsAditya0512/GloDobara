@@ -1,5 +1,5 @@
 import React from "react";
-import "./nav.css";
+import "./bookingNav.css";
 import Logo from "./l.png";
 import { FaUser } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -28,6 +28,10 @@ export default function Nav() {
             <a href="/about">About Us</a>
             <a href="/build_pages">Contacts</a>
             <a href="/services">Services</a>
+            <a>
+              <FaUser style={{ color: "white" }} />
+              <p>Login/Signup</p>
+            </a>
           </div>
         </div>
       </section>
