@@ -13,9 +13,7 @@ function AdminOtp() {
         </div>
         <div classname="app-text">
           <div className="Text">
-            <h1 className="h1" id="screen">
-              Welcome back
-            </h1>
+            <h1 className="h1">Welcome back</h1>
             <h3 className="h2">Super Am in OR Admin Login</h3>
             <h4 className="h4">
               A security code is sent to your registered mobile number <br />

@@ -1,0 +1,44 @@
+.radioButton {
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.25);
+  border-color: rgba(0, 0, 0, 0.25);
+  width: 30%;
+  height: 80%;
+  justify-content: space-between;
+  padding: 0.25%;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  margin: 1%;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  color: #2963ac;
+  margin: auto;
+  margin-right: 5px;
+}
+.name {
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+}
+.name > p {
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+}
+.input-button {
+  margin-top: auto;
+  margin-bottom: auto;
+  object-fit: contain;
+  width: 20px;
+  height: 20px;
+}
+.buttonlabel {
+  margin-left: 5%;
+}
+.radioButton:has(> .input-button:checked) {
+  background-color: rgba(41, 99, 172, 0.2);
+}

@@ -35,11 +35,12 @@
   background-color: var(--pink);
   padding: 10px 20px;
   border: 2px solid rgb(146, 128, 128);
+  padding-right: 0;
   border-right: 0;
 }
 
 .nav > .nav-links > a {
-  display: inline-block;
+  display: inline-flex;
   margin-right: 70px;
   text-decoration: none;
   color: #efefef;
@@ -47,8 +48,12 @@
   overflow: hidden;
   font-family: helvel;
   font-weight: 400;
+  flex-direction: row;
 }
-.nav-links  a::after{
+.nav > .nav-links > a > p {
+  margin-left: 15px;
+}
+.nav-links a::after {
   content: "";
   position: absolute;
   height: 2px;
@@ -58,7 +63,7 @@
   left: -100%;
   transition: 300ms;
 }
-.nav-links  a:hover::after{
+.nav-links a:hover::after {
   left: 0;
 }
 .nav > #nav-check {
@@ -88,12 +93,12 @@
     border-top: 2px solid #eee;
     cursor: pointer;
   }
-   .nav > .nav-btn > label > span:last-child{
+  .nav > .nav-btn > label > span:last-child {
     margin-bottom: 0;
-   }
+  }
   .nav > .nav-links {
     position: absolute;
-        display: block;
+    display: block;
     width: 100%;
     background-color: var(--pink);
     max-height: 0px;
@@ -105,7 +110,7 @@
     padding: 0;
     border: 0;
   }
-  .nav > .nav-links>  a {
+  .nav > .nav-links > a {
     display: block;
     width: 100%;
     padding: 0;
@@ -114,7 +119,7 @@
     position: relative;
     font-size: 18px;
   }
-  .nav-links a::after{
+  .nav-links a::after {
     height: 1px;
   }
   .nav > #nav-check:not(:checked) ~ .nav-links {
@@ -125,5 +130,4 @@
     max-height: 200px;
     overflow-y: hiddin;
   }
-  
 }
