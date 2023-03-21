@@ -2,7 +2,7 @@ import React from "react";
 import "./user_login.css";
 
 export default function UserLogin(){
-    return <div className="container">
+    return <div className="User_container">
             <div className="user_login">
                 <h2>SIGN IN</h2>
                 <p>SIGN IN USING YOUR GMAIL</p>

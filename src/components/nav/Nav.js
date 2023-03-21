@@ -1,18 +1,19 @@
 import React from "react";
 import "./nav.css";
 import Logo from "./l.png";
+import { FaUser } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-export default function nav() {
+export default function Nav() {
   return (
     <>
       <section className="nav align-center">
         <div className="nav align-center">
           <input type="checkbox" id="nav-check" />
           <div className="nav-header">
-            <Link to="/" className="logo">
+            <a href="/" className="logo">
               <img src={Logo} alt="" />
-            </Link>
+            </a>
           </div>
           <div className="nav-btn">
             <label htmlFor="nav-check">
@@ -23,10 +24,14 @@ export default function nav() {
           </div>
 
           <div className="nav-links">
-            <Link to="/">Home</Link>
-            <Link to="/about">About Us</Link>
-            <a href="#">Contacts</a>
-            <Link to="/services">Services</Link>
+            <a href="/">Home</a>
+            <a href="/about">About Us</a>
+            <a href="/build_pages">Contacts</a>
+            <a href="/services">Services</a>
+            <a>
+              <FaUser style={{ color: "white" }} />
+              <p>Login/Signup</p>
+            </a>
           </div>
         </div>
       </section>
