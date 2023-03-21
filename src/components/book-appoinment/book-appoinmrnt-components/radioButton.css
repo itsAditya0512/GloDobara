@@ -10,6 +10,7 @@
   display: inline-flex;
   flex-direction: row-reverse;
   margin: 1%;
+  cursor: pointer;
 }
 .icon {
   height: 50px;
@@ -17,12 +18,14 @@
   color: #2963ac;
   margin: auto;
   margin-right: 5px;
+  cursor: pointer;
 }
 .name {
   display: inline-flex;
   text-align: center;
   justify-content: center;
   height: 100%;
+  cursor: pointer;
 }
 .name > p {
   text-align: center;
@@ -35,6 +38,7 @@
   object-fit: contain;
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 .buttonlabel {
   margin-left: 5%;

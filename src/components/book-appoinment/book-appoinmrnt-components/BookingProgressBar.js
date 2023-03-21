@@ -5,6 +5,7 @@ export default function BookingProgressBar(props) {
   return (
     <div className="main-div">
       <p class="text1">Book Appointment</p>
+      <br></br>
       <p class="text2">Let's Spend A Quality Time Together</p>
       <br />
       <div class="button-main-div">
