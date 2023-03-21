@@ -5,6 +5,9 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
+.bar {
+  justify-content: center;
+}
 .image-div {
   width: 30%;
   object-fit: cover;
