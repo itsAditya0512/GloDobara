@@ -34,7 +34,7 @@
   justify-content: center;
   flex-direction: column;
   column-gap: 50px;
-  row-gap: 50px;
+  row-gap: 25px;
 }
 .element-row-div {
   width: 100%;
@@ -44,7 +44,17 @@
   justify-content: right;
 }
 .element-row-div2 {
+  margin-left: 2%;
+  justify-content: space-between;
   display: flex;
   flex-direction: row;
-  margin-left: 2%;
+  justify-content: left;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  color: #2963ac;
+  margin: auto;
+  margin-right: 5px;
+  cursor: pointer;
 }

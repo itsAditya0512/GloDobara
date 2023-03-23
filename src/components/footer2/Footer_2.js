@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../footer2/footer2.css";
+import "./footer2.css";
 
 export default function Footer_2() {
   return (

@@ -17,7 +17,7 @@
   width: 50px;
   color: #2963ac;
   margin: auto;
-  margin-right: 5px;
+  margin-left: 50px;
   cursor: pointer;
 }
 .name {
@@ -28,9 +28,10 @@
   cursor: pointer;
 }
 .name > p {
-  text-align: center;
-  margin: auto;
-  font-size: 30px;
+  margin-left: 50px;
+  align-self: center;
+  font-weight: 300;
+  font-size: 24px;
 }
 .input-button {
   margin-top: auto;
